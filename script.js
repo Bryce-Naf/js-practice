@@ -23,3 +23,23 @@ favFoods[3] = "pb&j";
 favFoods.pop();
 console.log(favFoods.length);
 console.log(favFoods);
+
+function rateSong(songName, rating) {
+    if (rating < 3) {
+        console.log("not a good one.");
+    };
+    if (rating === 3) {
+        console.log("a mid one.");
+    };
+    if (rating > 3) {
+        console.log("a good one.");
+    };
+};
+
+let mySongs = ["Hexagons", "The Angel", "Ballistic Funk"];
+for (let i = 0; i < mySongs.length; i++) {
+    console.log(mySongs[i] + " is a jam!");
+};
+
+rateSong("Hexagons", 5)
+rateSong("Dance Monkey", 1)

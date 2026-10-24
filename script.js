@@ -12,6 +12,14 @@ let player = {
     position: "QB",
     pointsPerGame: 14
 };
-player.gamesPlayed = 6
+player.gamesPlayed = 6;
 
-console.log(player.name, player.position, player.pointsPerGame, player.gamesPlayed)
+console.log(player.name, player.position, player.pointsPerGame, player.gamesPlayed);
+
+let favFoods = ["burger", "mac n cheese", "pizza", "turkey & cheese sandwich"];
+console.log(favFoods);
+favFoods.push("dots");
+favFoods[3] = "pb&j";
+favFoods.pop();
+console.log(favFoods.length);
+console.log(favFoods);
